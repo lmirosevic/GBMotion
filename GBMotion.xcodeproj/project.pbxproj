@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A6E408D17DDEC4900FA86B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6E408C17DDEC4900FA86B9 /* Foundation.framework */; };
+		8A6E409C17DDECC300FA86B9 /* GBMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E409B17DDECC300FA86B9 /* GBMotion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		8A6E408917DDEC4900FA86B9 /* libGBMotion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGBMotion.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6E408C17DDEC4900FA86B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A6E409017DDEC4900FA86B9 /* GBMotion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GBMotion-Prefix.pch"; sourceTree = "<group>"; };
+		8A6E409A17DDECC300FA86B9 /* GBMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMotion.h; sourceTree = "<group>"; };
+		8A6E409B17DDECC300FA86B9 /* GBMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMotion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 		8A6E408E17DDEC4900FA86B9 /* GBMotion */ = {
 			isa = PBXGroup;
 			children = (
+				8A6E409A17DDECC300FA86B9 /* GBMotion.h */,
+				8A6E409B17DDECC300FA86B9 /* GBMotion.m */,
 				8A6E408F17DDEC4900FA86B9 /* Supporting Files */,
 			);
 			path = GBMotion;
@@ -132,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6E409C17DDECC300FA86B9 /* GBMotion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
