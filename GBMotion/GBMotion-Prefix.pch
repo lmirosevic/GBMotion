@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GBMotion' target in the 'GBMotion' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
