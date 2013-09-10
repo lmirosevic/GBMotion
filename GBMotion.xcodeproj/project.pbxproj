@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A6E408D17DDEC4900FA86B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6E408C17DDEC4900FA86B9 /* Foundation.framework */; };
 		8A6E409C17DDECC300FA86B9 /* GBMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E409B17DDECC300FA86B9 /* GBMotion.m */; };
+		8A7EBEC917DF89FC0014F8D5 /* GBMotion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A6E409A17DDECC300FA86B9 /* GBMotion.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,6 +19,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				8A7EBEC917DF89FC0014F8D5 /* GBMotion.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +173,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -193,6 +196,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -240,6 +244,7 @@
 				8A6E409917DDEC4900FA86B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
