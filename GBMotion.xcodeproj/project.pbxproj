@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A23F268180CF4CC00378A99 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A23F267180CF4CC00378A99 /* CoreMotion.framework */; };
 		8A6E408D17DDEC4900FA86B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6E408C17DDEC4900FA86B9 /* Foundation.framework */; };
 		8A6E409C17DDECC300FA86B9 /* GBMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E409B17DDECC300FA86B9 /* GBMotion.m */; };
 		8A7EBEC917DF89FC0014F8D5 /* GBMotion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A6E409A17DDECC300FA86B9 /* GBMotion.h */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8A23F267180CF4CC00378A99 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		8A6E408917DDEC4900FA86B9 /* libGBMotion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGBMotion.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6E408C17DDEC4900FA86B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A6E409017DDEC4900FA86B9 /* GBMotion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GBMotion-Prefix.pch"; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A23F268180CF4CC00378A99 /* CoreMotion.framework in Frameworks */,
 				8A6E408D17DDEC4900FA86B9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		8A6E408B17DDEC4900FA86B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A23F267180CF4CC00378A99 /* CoreMotion.framework */,
 				8A6E408C17DDEC4900FA86B9 /* Foundation.framework */,
 			);
 			name = Frameworks;
