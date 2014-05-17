@@ -1,5 +1,4 @@
-GBMotion
-============
+# GBMotion ![Version](https://img.shields.io/cocoapods/v/GBMotion.svg?style=flat)&nbsp;![License](https://img.shields.io/badge/license-Apache_2-green.svg?style=flat)
 
 Utility library for helping with motion detection, such as orientation, etc.
 
